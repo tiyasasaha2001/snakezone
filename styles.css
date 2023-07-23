@@ -5,8 +5,8 @@
 }
 
 .body{
-    background: url("./bg2.png"); 
-    background-color: rgb(240, 253, 194);
+    background: url("./bg3.png"); 
+    background-color: rgb(167, 249, 146);
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -27,16 +27,16 @@
 #highscoreBox{
     position: absolute;
     top: 59px;
-    right: 140px;
-    font-size: 39px;
+    right: 180px;
+    font-size: 36px;
     font-weight: bold;
     font-family: 'New Tegomin', serif;
 }
 
 #board{
-    background: linear-gradient(#FF7000, #FFBF00);
-    width: 90vmin;
-    height: 92vmin;
+    background: linear-gradient(#797d7e, #978f7a);
+    width: 85vmin;
+    height: 75vmin;
     border: 2px solid black;
     display: grid;
     grid-template-rows: repeat(18, 1fr);
@@ -44,20 +44,20 @@
 }
 
 .head{
-    background: linear-gradient(red, rgb(195, 248, 2));
-    border: 2px solid rgb(34, 4, 34); 
+    background: linear-gradient(rgb(255, 6, 35), rgb(56, 96, 10));
+    border: 2px solid rgb(22, 58, 27); 
     transform: scale(1.02);
     border-radius: 9px;
 }
 
 .snake{
-    background-color: rgb(252, 219, 6);
-    border: .25vmin solid red;
+    background-color: rgb(22, 58, 27);
+    border: .25vmin solid rgb(251, 0, 0);
     border-radius: 12px;
 }
 
 .food{
-    background: linear-gradient(rgb(4, 250, 82), rgb(254, 254, 7));
+    background: linear-gradient(#062C30, #502064);
     border: .25vmin solid black;
     border-radius: 8px;
 }
