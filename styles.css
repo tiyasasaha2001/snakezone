@@ -33,7 +33,7 @@
 }
 
 #board{
-    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    background: linear-gradient(rgb(9, 193, 244), rgb(223, 171, 246));
     width: 90vmin;
     height: 92vmin;
     border: 2px solid black;
@@ -43,16 +43,22 @@
 }
 
 .head{
-    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    background: linear-gradient(red, rgb(195, 248, 2));
     border: 2px solid rgb(34, 4, 34); 
     transform: scale(1.02);
     border-radius: 9px;
 }
 
 .snake{
-    background-color: purple;
-    border: .25vmin solid white;
+    background-color: rgb(252, 219, 6);
+    border: .25vmin solid red;
     border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(4, 250, 82), rgb(254, 254, 7));
+    border: .25vmin solid black;
+    border-radius: 8px;
 }
 
 .food{
