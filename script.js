@@ -116,7 +116,7 @@ else{
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e =>{
-    inputDir = {x: 0, y: 1} // Start the game
+    inputDir = {x: 0, y: 0} // Start the game
     moveSound.play();
     switch (e.key) {
         case "ArrowUp":
@@ -142,6 +142,12 @@ window.addEventListener('keydown', e =>{
             inputDir.x = 1;
             inputDir.y = 0;
             break;
+
+        case "SpaceBar":
+            console.log("SpaceBar");
+            inputDir.x = 0;
+            inputDir.y = 0;
+            
         default:
             break;
     }
